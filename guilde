@@ -1,0 +1,8 @@
+1. how to make background tansparent?
+
+in (tabs) there are two main file  one is _layout.tsx and one is index.tsx
+so in index add thsi - 
+
+import { StatusBar } from "expo-status-bar";
+
+<StatusBar style="dark" />
